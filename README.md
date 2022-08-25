@@ -1,9 +1,9 @@
 # Game Design With Unity Club Week 1
 
-##** Unity Editor Requirements **
+**Unity Editor Requirements**
 
-- 2D Sprite 
- - Attach a RigidBody2D 
-  - Set Gravity Scale to 0
-   - Attach Script
+- Create 2D Sprite 
+  - Attach a RigidBody2D 
+    - Set Gravity Scale to 0
+      - Attach Script
  
