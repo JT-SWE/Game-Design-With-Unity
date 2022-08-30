@@ -5,28 +5,28 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     /*
-     Propertity Scope: Private
-     Propertity Data Type String
+     Field Scope: Private
+     Field Data Type String
      */
     private string _characterName;
     /*
-     Propertity Scope: Private
-     Propertity Data Type Bool
+     Field Scope: Private
+     Field Data Type Bool
     */
     private bool _isMoving;
     /*
-    Propertity Scope: Private
-    Propertity Data Type float
+    Field Scope: Private
+    Field Data Type float
     */
     private float _movementSpeed;
     /*
-    Propertity Scope: Private
-    Propertity Data Type int
+    Field Scope: Private
+    Field Data Type int
     */
     private int _characterHealth;
     /*
-    Propertity Scope: Private
-    Propertity Data Type Vector2
+    Field Scope: Private
+    Field Data Type Vector2
     */
     private Vector2 _characterPosition = new Vector2(0f, 0f);
     /*
@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         /*
-            Grab Rigid body and modify components
+            Grab Rigid body and modify component
         */
         squareRb = gameObject.GetComponent<Rigidbody2D>();
         squareRb.gravityScale = 1;
