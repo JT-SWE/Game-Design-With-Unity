@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         playerRb = gameObject.GetComponent<Rigidbody2D>();
-        moveSpeed = 3;
+        moveSpeed = 3.5f;
     }
 
     // Update is called once per frame
