@@ -65,6 +65,9 @@ public class PlayerController : MonoBehaviour
         Debug.Log("You picked up a small potion. Health: " + HealthPotion());
 
         Debug.Log("You picked up a choose your own healing potion. Health: " + CustomHeal(45));
+
+        HealStatus("poison");
+
     }
 
     int HealthPotion() {
@@ -74,6 +77,36 @@ public class PlayerController : MonoBehaviour
     int CustomHeal(int healAmount) {
         int newHealth = CharacterHealth + healAmount;
         return newHealth;
+    }
+
+
+    /*
+    Conditionals & Operators Part 4
+    */
+
+    string HealStatus(string status) {
+
+        string statusHealed = status;
+
+        if (status == "poison")
+        {
+            Debug.Log($"You healed your {statusHealed}");
+
+        }else if (status == "paralysis")
+        {
+            Debug.Log($"You healed your {statusHealed}");
+        }
+        else if (status == "burn")
+        {
+            Debug.Log($"You healed your {statusHealed}");
+        }
+        else
+        {
+            Debug.Log($"You healed all Status Effects !");
+        }
+
+        return statusHealed;
+        
     }
 
 
