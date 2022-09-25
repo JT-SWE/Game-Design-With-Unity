@@ -3,7 +3,9 @@ guid: d909199d9eaf148749d5e991e2ca9dde
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _collectableBehavior: {instanceID: 0}
+  - scoreLog: {fileID: 5453515073651990561, guid: 70643e8f3b2d6445f811f25e1f488f5b, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -5,7 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] collectableBehavior _collectableBehavior;
-
+    //[SerializeField] scoreLog scoreLog;
+    
 
     void Start()
     {
